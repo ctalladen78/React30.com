@@ -1,10 +1,16 @@
 import React from 'react'
+import React30SquareURL from '../React30Square.png'
 import './Home.css'
 
 class Home extends React.Component {
   render = () => {
     return (
-      <div>go!</div>
+      <div className="logo-wrapper">
+        <div
+          className="logo"
+          style={{ backgroundImage: `url(${React30SquareURL})` }}
+        />
+      </div>
     )
   }
 }
